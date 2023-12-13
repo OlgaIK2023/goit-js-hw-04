@@ -7,8 +7,7 @@ for (const item of values) {
   totalSum +=item;
 }
 
-if (totalSum <= containerSize) {
-  return 'True';} else {return 'False'};
+return totalSum <= containerSize;
 
   
 }
